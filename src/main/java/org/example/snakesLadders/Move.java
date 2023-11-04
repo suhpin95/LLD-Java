@@ -1,5 +1,6 @@
 package org.example.snakesLadders;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.Queue;
@@ -25,33 +26,33 @@ public class Move {
         return location < 101 && location >= 0;
     }
 
-    public Player move(){
-        AtomicReference<Player> winner = null;
-        /**
-         * Loop until there's a winner
-         */
-        while(playerList.size() > 1) {
-            Player player = playerList.poll();
-            int location = player.getLocation();
-            int diceRoll = getNextMove();
-            if (snakes.containsKey(location + diceRoll)) {
-                location = snakes.get(location + diceRoll);
-            }
-            if (ladder.containsKey(diceRoll + location)) {
-                location = ladder.get(diceRoll + location);
-            }
-            if (isValidMove(location + diceRoll)) {
-                player.setLocation(location + diceRoll);
-            }
-            if (isWinner(player)) {
-                winner.set(player);
-                break;
-            } else {
-                playerList.offer(player);
+    public List<Player> move() {
+        List<Player> winners = new ArrayList<>();
+
+        while (winners.isEmpty()) {
+            for (Player player : playerList) {
+                int location = player.getLocation();
+                int diceRoll = getNextMove();
+
+                if (snakes.containsKey(location + diceRoll)) {
+                    location = snakes.get(location + diceRoll);
+                } else if (ladder.containsKey(location + diceRoll)) {
+                    location = ladder.get(location + diceRoll);
+                } else if (isValidMove(location + diceRoll)) {
+                    location += diceRoll;
+                }
+
+                player.setLocation(location);
+
+                if (isWinner(player)) {
+                    winners.add(player);
+                }
             }
         }
-        return winner.get();
+
+        return winners;
     }
+
 
     public int getNextMove(){
         int rollDice = (int) (Math.random() * (6-1)+ 1);

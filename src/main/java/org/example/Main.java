@@ -36,8 +36,8 @@ public class Main {
         ladder.put(10, 65);
         moves.setLadder(ladder);
 
-        Player winner = moves.move();
-        System.out.println(winner);
+        List<Player> winners = moves.move();
+        winners.forEach(e -> System.out.println(e));
 
     }
 }

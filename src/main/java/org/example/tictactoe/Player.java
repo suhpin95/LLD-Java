@@ -1,2 +1,15 @@
-package org.example.tictactoe;public class Player {
+package org.example.tictactoe;
+
+import lombok.Getter;
+
+public class Player {
+    @Getter
+    int id;
+
+    @Getter
+    String name;
+    public Player(int id, String name){
+        this.id = id;
+        this.name = name;
+    }
 }

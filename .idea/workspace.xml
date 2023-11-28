@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61fe7252-8f81-47aa-8a07-b044d21ca753" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/Cells.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/Chess.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/IPiece.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/King.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/PieceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/Queen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/Rook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lru/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lru/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lru/EvictionPolicy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lru/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/lru/Storage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/snakesLadders/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/snakesLadders/Move.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tictactoe/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tictactoe/Move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tictactoe/Spots.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +38,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="LLD" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="package-info" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -80,19 +118,39 @@
       <updated>1699050207171</updated>
       <workItem from="1699050208181" duration="5331000" />
       <workItem from="1699060690139" duration="4371000" />
-      <workItem from="1699065390605" duration="752000" />
+      <workItem from="1699065390605" duration="1609000" />
+      <workItem from="1699113360835" duration="688000" />
+      <workItem from="1699114075108" duration="67000" />
+      <workItem from="1699114234566" duration="2643000" />
+      <workItem from="1699120989084" duration="1472000" />
+      <workItem from="1699133571375" duration="991000" />
+      <workItem from="1699147263269" duration="1935000" />
+      <workItem from="1699149580737" duration="574000" />
+      <workItem from="1699410923875" duration="689000" />
+      <workItem from="1699469823134" duration="63000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
-          <line>38</line>
+          <line>5</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

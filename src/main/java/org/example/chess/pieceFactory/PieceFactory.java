@@ -1,10 +1,12 @@
-package org.example.chess.PieceFactory;
+package org.example.chess.pieceFactory;
 
 public class PieceFactory {
     /**
-     * This is the factory to produce desired piece
+     * Returns the type of piece
+     * @param pieceName
+     * @return
      */
-    public IPiece getPiece(String pieceName){
+    public IPiece getPiece(String pieceName) throws IllegalArgumentException{
         switch (pieceName.toLowerCase()) {
             case "rook" -> {
                 return new Rook();
@@ -22,8 +24,7 @@ public class PieceFactory {
                 return new Bishop();
             }
             default -> {
-                System.out.println("Invalid choice");
-                return null;
+                throw new IllegalArgumentException("This Piece doesn't exists in chess");
             }
         }
     }

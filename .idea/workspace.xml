@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61fe7252-8f81-47aa-8a07-b044d21ca753" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/moves/PieceMove.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/Cells.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/Chess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/Chess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/Bishop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/pieceFactory/Bishop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/IPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/pieceFactory/IPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/pieceFactory/King.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/Pawn.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/pieceFactory/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/PieceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/pieceFactory/PieceFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/Queen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/pieceFactory/Queen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/chess/PieceFactory/Rook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/chess/pieceFactory/Rook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tictactoe/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tictactoe/TicTacToe.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +50,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -108,7 +119,7 @@
       <workItem from="1699149580737" duration="574000" />
       <workItem from="1699410923875" duration="689000" />
       <workItem from="1699469823134" duration="63000" />
-      <workItem from="1701207108977" duration="5792000" />
+      <workItem from="1701207108977" duration="8856000" />
     </task>
     <servers />
   </component>

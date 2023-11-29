@@ -2,6 +2,7 @@ package org.example.tictactoe;
 
 
 import java.util.Objects;
+import java.util.Stack;
 
 /**
  * REQ
@@ -22,7 +23,7 @@ public class TicTacToe {
 
     int currentPlayer;
     String[][] board = new String[3][3];
-
+    Stack<Move> moves = new Stack<>();
     public TicTacToe(){
         currentPlayer = 1;
         init();
@@ -35,13 +36,13 @@ public class TicTacToe {
             }
         }
     }
-    public void getMoves(Move location){
-        if(! isValid(location)){
-//            can't perform operation
-            System.out.println("Can't perform op");
+    public void getMoves(Move location) throws IllegalArgumentException{
+        if(!isValid(location)){
+            throw new IllegalArgumentException("Can't move");
         }
         board[location.getX_coordinate()][location.getY_coordinate()] = currentPlayer == 1? "X" : "0";
         currentPlayer = 3 - currentPlayer;
+        moves.push(location);
     }
 
     /**
@@ -71,6 +72,11 @@ public class TicTacToe {
             }
         }
         return winner;
+    }
+
+    public void undoMove(){
+        Move location = moves.pop();
+        board[location.getX_coordinate()][location.getY_coordinate()] = " ";
     }
 
     public void display(){

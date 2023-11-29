@@ -1,4 +1,4 @@
-package org.example.chess.PieceFactory;
+package org.example.chess.pieceFactory;
 
 public class Queen implements IPiece{
     @Override
